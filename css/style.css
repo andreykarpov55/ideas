@@ -403,7 +403,7 @@ html{
     box-sizing:inherit;
 }
 .header{
-    position: fixed;
+
     top: 0;
     left: 0;
     width: 100%;
@@ -467,7 +467,9 @@ align-items: center;
     margin-left: 326px;
 }
 
-
+.body{
+    overflow-y: scroll;
+}
 
 
 .intro{
@@ -543,7 +545,6 @@ align-items: center;
 }
 .ideas-title-man{
 
-
 }
 .arrow-right{
 margin: 670px 0 0 766px;
@@ -552,7 +553,12 @@ margin: 670px 0 0 766px;
 
 }
 
-
+.test2{
+    background-color: chartreuse;
+    height:3000px;
+    width: 700px;
+    margin: 0 auto;
+}
 
 
 .idea-stats{
@@ -563,10 +569,23 @@ margin: 670px 0 0 766px;
     border-radius: 8px;
     height: 300px;
     width: 1170px;
-    top: 150px;
+    top: -150px;
 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    grid-auto-rows: 99px 99px;
+    grid-column-gap: 30px;
+    grid-row-gap: 36px;
+    justify-items: center;
 }
 .project{
-    height: 500px;
+    height: 1500px;
     background-color: dimgray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.block{
+    background-color: blue;
 }
