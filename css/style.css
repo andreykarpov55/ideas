@@ -557,7 +557,7 @@ display: flex;
     margin:0 0 13px 50px;
 
 }
-.arrow{
+.arrow {
     margin:90px 0 50px 60px;
 
 }
@@ -894,6 +894,10 @@ justify-items: center;
     color: #FFFFFF;
 }
 /* Registration end */
+
+
+
+/* New-ideas start */
 .new-ideas{
     height: 932px;
     background: #E5E5E5;
@@ -917,12 +921,7 @@ justify-items: center;
     align-items: center;
 }
 .new-ideas-conteiner{
-
-
-
-
 }
-
 
 /* Собственно сам слайдер */
 .slider{
@@ -1026,17 +1025,7 @@ justify-items: center;
         opacity: 1
     }
 }
-
-
-
-
-
-
-
-
-
-
-
+/* New-ideas end */
 
 
 
